@@ -1,0 +1,11 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "rootDir": "./",
+        "baseUrl": ".",
+        "outDir": "dist/",
+        "declaration": true,
+        "moduleResolution": "Node"
+    },
+    "files": ["lib/app.ts"]
+}
